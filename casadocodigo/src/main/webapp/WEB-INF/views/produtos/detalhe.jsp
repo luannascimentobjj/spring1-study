@@ -80,7 +80,7 @@
 	
 	  
 	  <section class="buy-options clearfix">  
-	  <form action='<c:url value="carrinho/add" />' method="post" class="container">
+	  <form action='<c:url value="/carrinho/add" />' method="post" class="container">
 	    <ul id="variants" class="clearfix">
 	    	<input type="hidden" value="${produto.id }" name="produtoId"/>
 	    	  <c:forEach items="${produto.precos }" var="preco">
